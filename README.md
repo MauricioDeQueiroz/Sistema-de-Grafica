@@ -8,30 +8,9 @@ Este é um sistema de gestão para uma gráfica, desenvolvido em **Java** e util
 - **MySQL**: Banco de dados relacional para armazenamento das informações.
 - **JDBC**: Para conexão entre a aplicação Java e o banco de dados MySQL.
 - **IntelliJ IDEA**: Ambiente de desenvolvimento integrado (IDE).
-- 
-## Funcionalidades
+  
 
-1. **Gerenciamento de Produtos**:
-   - Adicionar novos produtos.
-   - Listar produtos cadastrados.
-   - Atualizar informações de produtos.
-   - Remover produtos do estoque.
-
-2. **Gerenciamento de Clientes**:
-   - Cadastro de clientes.
-   - Consulta e edição de dados de clientes.
-
-3. **Gerenciamento de Vendas**:
-   - Registro de vendas.
-   - Consulta de histórico de vendas.
-
-4. **Controle de Estoque**:
-   - Verificação de disponibilidade de produtos.
-   - Atualização automática do estoque após uma venda.
-
-
-
-3. Execute o script `database.sql` para criar as tabelas necessárias.
+. Execute o script `database.sql` para criar as tabelas necessárias.
 
 ### Dependências
 Adicione o conector MySQL ao projeto utilizando o Maven. No arquivo `pom.xml`, inclua:
